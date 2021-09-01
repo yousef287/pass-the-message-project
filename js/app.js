@@ -13,6 +13,7 @@
             }, 2000);
         } else {
             lastMessage.innerHTML = message.value;
+            message.value = "";
         }
     });
 })();
